@@ -1,0 +1,397 @@
+h1 {
+    color : rgb(0, 0, 0);
+    position: relative; /* Set the position to relative or other values as needed */
+    top: 200px; /* Adjust the distance from the top */
+    left: 900px; /* Adjust the distance from the left */
+    font-size: 40px; /* Set the desired font size */
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    background-repeat: repeat; /* Optional: Set how the image should repeat */
+    background-size: cover; /* Optional: Set how the image should be sized */
+    background-position: center; /* Optional: Set the position of the image */
+}
+.Home {
+    position: fixed;
+    top: 75px; /* Position the button 20 pixels from the top of the viewport */
+    left: 400px;
+
+}
+
+.Home {
+    background-color: #ffffff00; /* Set the button background color */
+    color: rgb(118, 45, 45); /* Set the button text color */
+    padding: 10px 20px; /* Set padding around the button text */
+    border: none; /* Remove the button border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    font-size: 20px; /* Set the font size of the button text */
+    cursor: pointer; /* Add a pointer cursor when hovering over the button */
+    transition: font-family 0.3s ease; 
+    font-weight: bold;
+}
+.Home:hover {
+    font-family: "Arial", sans-serif; /* Change the font-family on hover */
+    color: #271974;
+  }
+
+
+
+
+.custom-hr {
+    border: none; /* Remove default border */
+    height: 6px; /* Set the height of the line */
+    background-color: #000000; /* Set the background color of the line */
+    margin: 180px 0; /* Add some spacing above and below the line */
+    position: relative;
+}
+
+.p1 {
+    font-size: 20px; /* Set the font size of the paragraph */
+    color: #333; /* Set the text color */
+    line-height: 1.6; /* Set the line height to create spacing between lines */
+    text-align: justify; /* Justify the text for even left and right margins */
+    margin-left: 750px;
+    margin-right: 150px;
+    position: relative;
+    top: 200px;
+    text-indent: 22px; /* Adjust the indentation as needed */
+
+}
+
+.slcgroup {
+    border: 3px solid #b1b1b1; /* Set the border to a solid line with a 2px width and a dark gray color (#333) */
+    border-radius: 5px; /* Optional: Add border-radius to create rounded corners */
+
+}
+
+.group {
+    border: 3px solid #b1b1b1; /* Set the border to a solid line with a 2px width and a dark gray color (#333) */
+    border-radius: 5px; /* Optional: Add border-radius to create rounded corners */
+
+}
+
+.leader {
+    border: 3px solid #b1b1b1; /* Set the border to a solid line with a 2px width and a dark gray color (#333) */
+    border-radius: 5px; /* Optional: Add border-radius to create rounded corners */
+    margin-bottom: 0px; /* Add 20 pixels of space to the bottom of the element */
+}
+
+.p5 {
+    color: #333; /* Set the text color */
+    text-align: justify; /* Justify the text for even left and right margins */
+    margin-left: 750px;
+    margin-right: 150px;
+    position: relative;
+    top: 300px;
+    text-indent: 22px; /* Adjust the indentation as needed */
+    font-size: 20px;
+    line-height: 1.5; /* Adjust the line height to control spacing between lines */
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.p3 {
+    font-size: 20px; /* Set the font size of the paragraph */
+    color: #333; /* Set the text color */
+    line-height: 1.6; /* Set the line height to create spacing between lines */
+    text-align: justify; /* Justify the text for even left and right margins */
+    margin-left: 750px;
+    margin-right: 150px;
+    position: relative;
+    top: 400px;
+    text-indent: 20px; /* Adjust the indentation as needed */
+    margin-bottom: 20px; /* Add 20 pixels of space to the bottom of the element */
+
+}
+
+.Opportunities {
+    position: fixed;
+    top: 75px; /* Position the button 20 pixels from the top of the viewport */
+    left: 600px;
+}
+
+/* Styles for the main button */
+.Opportunities {
+  position: fixed;
+  display: inline-block;
+}
+
+/* Styles for the buttons inside the main button */
+.Opportunities button {
+    background-color: #ffffff00; /* Set the button background color */
+    color: rgb(118, 45, 45); /* Set the button text color */
+    padding: 10px 20px; /* Set padding around the button text */
+    border: none; /* Remove the button border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    font-size: 20px; /* Set the font size of the button text */
+    cursor: pointer; /* Add a pointer cursor when hovering over the button */
+    transition: font-family 0.3s ease; 
+    font-weight: bold;
+}
+
+/* Styles for the sub-buttons to be hidden initially */
+.sub-buttons {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(218, 236, 255); /* Set the button background color */
+  color: rgb(118, 45, 45); /* Set the button text color */
+  padding: 10px 20px; /* Set padding around the button text */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Add rounded corners to the button */
+  font-size: 20px; /* Set the font size of the button text */
+  cursor: pointer; /* Add a pointer cursor when hovering over the button */
+  transition: font-family 0.3s ease; 
+  font-weight: bold;
+}
+
+/* Show the sub-buttons when hovering over the main button */
+.Opportunities:hover .sub-buttons {
+
+  font-family: "Arial", sans-serif; /* Change the font-family on hover */
+  color: #271974;
+  display: block;
+  font-family: "Arial", sans-serif; /* Change the font-family on hover */
+  color: #271974;
+}
+
+/* Styles for the main button and sub-buttons */
+
+.Opportunities button:hover{
+    font-family: "Arial", sans-serif; /* Change the font-family on hover */
+    color: #271974;
+}
+
+
+/* Change the color of the sub-buttons' font when hovering over them */
+.sub-buttons button:hover {
+    font-family: "Arial", sans-serif; /* Change the font-family on hover */
+    color: #271974;
+}
+
+
+
+
+
+
+.fall {
+    border: 3px solid #b1b1b1; /* Set the border to a solid line with a 2px width and a dark gray color (#333) */
+    border-radius: 5px; /* Optional: Add border-radius to create rounded corners */
+}
+
+.cutie {
+    border: 3px solid #b1b1b1; /* Set the border to a solid line with a 2px width and a dark gray color (#333) */
+    border-radius: 5px; /* Optional: Add border-radius to create rounded corners */
+}
+
+
+.spaced-out {
+    letter-spacing: 4px; /* Adjust the letter-spacing as needed */
+}
+
+
+
+.element {
+    margin-bottom: 100px; /* Add 100 pixels of space to the bottom of the element */
+  }
+
+.penis{
+    color : rgb(196, 185, 185);
+    position: relative; /* Set the position to relative or other values as needed */
+    top: -305px; /* Adjust the distance from the top */
+    left: 0px; /* Adjust the distance from the left */
+    font-size: 40px; /* Set the desired font size */
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    font-family: "Arial Black", sans-serif; /* Change to your desired font family */
+}
+
+h5 {
+    color : rgb(196, 185, 185);
+    position: relative; /* Set the position to relative or other values as needed */
+    top: -135px; /* Adjust the distance from the top */
+    left: 0px; /* Adjust the distance from the left */
+    font-size: 20px; /* Set the desired font size */
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    font-family: "Arial Black", sans-serif; /* Change to your desired font family */
+}
+
+.symbol {
+    background-color: #ffffff00; /* Set the button background color */
+    color: rgba(118, 45, 45, 0); /* Set the button text color */
+    border: none; /* Remove the button border */
+    border-radius: 0px; /* Add rounded corners to the button */
+    font-size: 20px; /* Set the font size of the button text */
+    cursor: pointer; /* Add a pointer cursor when hovering over the button */
+    transition: font-family 0.3s ease; 
+    font-weight: bold;
+    width: 1;
+    height: 1;
+    padding: 1px 1px;
+    
+  /* Set initial transition properties */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.symbol:hover {
+    font-family: "Arial", sans-serif; /* Change the font-family on hover */
+    color: #27197400;
+    transform: scale(1.1); /* Increase the size of the button by 10% */
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: floralwhite;
+}
+
+h6{
+    margin-top: 50px;
+    margin-left: 510px;
+    font-size: 60px;
+    font-family: 'Karla', sans-serif;
+    font-weight: lighter;
+}
+
+
+
+.slider-frame{
+    overflow: hidden;
+    height: 600px;
+    width: 1200px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 00px;
+}
+
+/*---------- SLIDE ANIMATION --------------*/
+
+
+@keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left:0px;}
+}
+
+@-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left:0px;}
+}
+
+.slide-images{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+
+.img-container{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+
+
+
+/*###############################################Opportunities stuffz############################################ */
+h3 {
+    color : rgb(137, 159, 237);
+    position: relative; /* Set the position to relative or other values as needed */
+    top: 150px; /* Adjust the distance from the top */
+    left: 200px; /* Adjust the distance from the left */
+    font-size: 64px; /* Set the desired font size */
+    font-family: "Arial Black", sans-serif; /* Change to your desired font family */
+
+}
+
+.p4 {
+    font-size: 24px; /* Set the font size of the paragraph */
+    color: floralwhite; /* Set the text color */
+    line-height: 8; /* Set the line height to create spacing between lines */
+    text-align: justify; /* Justify the text for even left and right margins */
+    margin-left: 120px;
+    position: relative;
+    top: 300px; /* Optional: Add border-radius to create rounded corners */
+    font-weight: bold;
+}
+
+.p7 {
+    font-size: 24px; /* Set the font size of the paragraph */
+    color: floralwhite; /* Set the text color */
+    line-height: 8; /* Set the line height to create spacing between lines */
+    text-align: justify; /* Justify the text for even left and right margins */
+    margin-left: 120px;
+    position: relative;
+    top: -1610px; /* Optional: Add border-radius to create rounded corners */
+    font-weight: bold;
+}
+
+h4 {
+    color : floralwhite;
+    position: relative; /* Set the position to relative or other values as needed */
+    top: 1000px; /* Adjust the distance from the top */
+    left: 180px; /* Adjust the distance from the left */
+    font-size: 56px; /* Set the desired font size */
+}
+
+.p6 {
+    font-size: 24px; /* Set the font size of the paragraph */
+    color: #333; /* Set the text color */
+    line-height: 3; /* Set the line height to create spacing between lines */
+    text-align: justify; /* Justify the text for even left and right margins */
+    position: relative;
+    top: 00px; /* Optional: Add border-radius to create rounded corners */
+    font-weight: bold;
+    margin-right: 600px;
+}
+
+.closer-spacing {
+    line-height: .001; /* Adjust the line-height value as needed */
+}
+
+.h7{
+    color : rgb(137, 159, 237);
+    position: relative; /* Set the position to relative or other values as needed */
+    top: -3810px; /* Adjust the distance from the top */
+    left: 420px; /* Adjust the distance from the left */
+    font-size: 24px; /* Set the desired font size */
+}
+
+
+/*###############################################Opportunities stuffz############################################ */

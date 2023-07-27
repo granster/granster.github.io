@@ -1,0 +1,31 @@
+.p1{
+    font-size: 28px; /* Set the font size of the paragraph */
+    color: #333; /* Set the text color */
+    line-height: 1.6; /* Set the line height to create spacing between lines */
+    text-align: center; /* Justify the text for even left and right margins */
+    margin-left: 00px;
+    margin-bottom: 50px;
+    position: relative;
+    top: 200px;
+    text-indent: 20px; /* Adjust the indentation as needed */
+    margin-bottom: 20px; /* Add 20 pixels of space to the bottom of the element */
+
+}
+
+h1{
+    color : rgb(0, 0, 0);
+    position: relative; /* Set the position to relative or other values as needed */
+    top: 200px; /* Adjust the distance from the top */
+    left: 0; /* Adjust the distance from the left */
+    font-size: 64px; /* Set the desired font size */
+    text-align: center;
+    font-family: "Arial Black", sans-serif; /* Change to your desired font family */
+
+}
+body {
+    overflow-x: hidden;
+}
+body {
+    overflow-x: hidden;
+    background-color: floralwhite;
+}

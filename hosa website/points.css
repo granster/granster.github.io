@@ -1,0 +1,25 @@
+body {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: floralwhite;
+}
+
+h1 {
+    color : rgb(0, 0, 0);
+    position: relative; /* Set the position to relative or other values as needed */
+    top: 60px; /* Adjust the distance from the top */
+    left: 100px; /* Adjust the distance from the left */
+    font-size: 60px; /* Set the desired font size */
+    text-align: center;
+    font-family: "Arial Black", sans-serif; /* Change to your desired font family */
+}
+
+.google-sheets-container {
+    position: relative; /* Set the position to absolute to move the element freely */
+    top: 100px; /* Adjust the distance from the top */
+    left: 350px; /* Adjust the distance from the left */
+}
+  

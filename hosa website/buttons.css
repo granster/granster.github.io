@@ -1,0 +1,284 @@
+.Opportunities {
+    position: fixed;
+    top: 75px; /* Position the button 20 pixels from the top of the viewport */
+    left: 600px;
+}
+
+/* Styles for the main button */
+.Opportunities {
+  position: fixed;
+  display: inline-block;
+}
+
+/* Styles for the buttons inside the main button */
+.Opportunities button {
+    background-color: #ffffff00; /* Set the button background color */
+    color: rgb(118, 45, 45); /* Set the button text color */
+    padding: 10px 20px; /* Set padding around the button text */
+    border: none; /* Remove the button border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    font-size: 20px; /* Set the font size of the button text */
+    cursor: pointer; /* Add a pointer cursor when hovering over the button */
+    transition: font-family 0.3s ease; 
+    font-weight: bold;
+}
+
+/* Styles for the sub-buttons to be hidden initially */
+.sub-buttons {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(218, 236, 255); /* Set the button background color */
+  color: rgb(118, 45, 45); /* Set the button text color */
+  padding: 10px 20px; /* Set padding around the button text */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Add rounded corners to the button */
+  font-size: 20px; /* Set the font size of the button text */
+  cursor: pointer; /* Add a pointer cursor when hovering over the button */
+  transition: font-family 0.3s ease; 
+  font-weight: bold;
+}
+
+/* Show the sub-buttons when hovering over the main button */
+.Opportunities:hover .sub-buttons {
+
+  font-family: "Arial", sans-serif; /* Change the font-family on hover */
+  color: #271974;
+  display: block;
+  font-family: "Arial", sans-serif; /* Change the font-family on hover */
+  color: #271974;
+}
+
+/* Styles for the main button and sub-buttons */
+
+.Opportunities button:hover{
+    font-family: "Arial", sans-serif; /* Change the font-family on hover */
+    color: #271974;
+}
+
+
+/* Change the color of the sub-buttons' font when hovering over them */
+.sub-buttons button:hover {
+    font-family: "Arial", sans-serif; /* Change the font-family on hover */
+    color: #271974;
+}
+
+
+
+.Home {
+    position: fixed;
+    top: 75px; /* Position the button 20 pixels from the top of the viewport */
+    left: 400px;
+
+}
+
+.Home {
+    background-color: #ffffff00; /* Set the button background color */
+    color: rgb(118, 45, 45); /* Set the button text color */
+    padding: 10px 20px; /* Set padding around the button text */
+    border: none; /* Remove the button border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    font-size: 20px; /* Set the font size of the button text */
+    cursor: pointer; /* Add a pointer cursor when hovering over the button */
+    transition: font-family 0.3s ease; 
+    font-weight: bold;
+}
+.Home:hover {
+    font-family: "Arial", sans-serif; /* Change the font-family on hover */
+    color: #271974;
+  }
+
+
+
+.SLC {
+    position: fixed;
+    top: 75px; /* Position the button 20 pixels from the top of the viewport */
+    left: 780px;
+
+}
+
+.SLC {
+    background-color: #ffffff00; /* Set the button background color */
+    color: rgb(118, 45, 45); /* Set the button text color */
+    padding: 10px 20px; /* Set padding around the button text */
+    border: none; /* Remove the button border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    font-size: 20px; /* Set the font size of the button text */
+    cursor: pointer; /* Add a pointer cursor when hovering over the button */
+    transition: font-family 0.3s ease; 
+    font-weight: bold;
+}
+.SLC:hover {
+    font-family: "Arial", sans-serif; /* Change the font-family on hover */
+    color: #271974;
+  }
+
+.speakers {
+    position: fixed;
+    top: 75px; /* Position the button 20 pixels from the top of the viewport */
+    left: 860px;
+
+}
+
+.speakers {
+    background-color: #ffffff00; /* Set the button background color */
+    color: rgb(118, 45, 45); /* Set the button text color */
+    padding: 10px 20px; /* Set padding around the button text */
+    border: none; /* Remove the button border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    font-size: 20px; /* Set the font size of the button text */
+    cursor: pointer; /* Add a pointer cursor when hovering over the button */
+    transition: font-family 0.3s ease; 
+    font-weight: bold;
+}
+.speakers:hover {
+    font-family: "Arial", sans-serif; /* Change the font-family on hover */
+    color: #271974;
+}
+
+.About {
+    position: fixed;
+    top: 75px; /* Position the button 20 pixels from the top of the viewport */
+    left: 500px;
+}
+
+/* Styles for the main button */
+.About {
+  position: fixed;
+  display: inline-block;
+}
+
+/* Styles for the buttons inside the main button */
+.About button {
+    background-color: #ffffff00; /* Set the button background color */
+    color: rgb(118, 45, 45); /* Set the button text color */
+    padding: 10px 20px; /* Set padding around the button text */
+    border: none; /* Remove the button border */
+    border-radius: 5px; /* Add rounded corners to the button */
+    font-size: 20px; /* Set the font size of the button text */
+    cursor: pointer; /* Add a pointer cursor when hovering over the button */
+    transition: font-family 0.3s ease; 
+    font-weight: bold;
+}
+
+/* Styles for the sub-buttons to be hidden initially */
+.sub-buttons {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(218, 236, 255); /* Set the button background color */
+  color: rgb(118, 45, 45); /* Set the button text color */
+  padding: 10px 20px; /* Set padding around the button text */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Add rounded corners to the button */
+  font-size: 20px; /* Set the font size of the button text */
+  cursor: pointer; /* Add a pointer cursor when hovering over the button */
+  transition: font-family 0.3s ease; 
+  font-weight: bold;
+}
+
+/* Show the sub-buttons when hovering over the main button */
+.About:hover .sub-buttons {
+
+  font-family: "Arial", sans-serif; /* Change the font-family on hover */
+  color: #271974;
+  display: block;
+  font-family: "Arial", sans-serif; /* Change the font-family on hover */
+}
+
+/* Styles for the main button and sub-buttons */
+
+.About button:hover{
+    font-family: "Arial", sans-serif; /* Change the font-family on hover */
+    color: #271974;
+}
+
+
+/* Change the color of the sub-buttons' font when hovering over them */
+.sub-buttons button:hover {
+    font-family: "Arial", sans-serif; /* Change the font-family on hover */
+    color: #ffffff;
+    background-color: #322b5b;
+}
+
+.facebook {
+  padding: 10px 20px; /* Add padding to give the button some space */
+  background-color: #007bff00; /* Set the background color of the button */
+  color: #ffffff; /* Set the text color */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Add rounded corners to the button */
+  font-size: 16px; /* Set the font size of the button text */
+  position: fixed;
+  top: 50px;
+  left: 1325px;
+}
+
+/* Add some space between the image and the text */
+.facebook img {
+  margin-right: 5px;
+}
+
+.facebook button:hover{
+  /* Increase the box shadow on hover to make the shadow effect more pronounced */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gmail {
+  padding: 10px 20px; /* Add padding to give the button some space */
+  background-color: #007bff00; /* Set the background color of the button */
+  color: #ffffff; /* Set the text color */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Add rounded corners to the button */
+  font-size: 16px; /* Set the font size of the button text */
+  position: fixed;
+  top: 47px;
+  left: 1245px;
+}
+
+/* Add some space between the image and the text */
+.gmail img {
+  margin-right: 5px;
+}
+
+.gmail button:hover{
+  /* Increase the box shadow on hover to make the shadow effect more pronounced */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.instagram {
+  padding: 10px 20px; /* Add padding to give the button some space */
+  background-color: #007bff00; /* Set the background color of the button */
+  color: #ffffff; /* Set the text color */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Add rounded corners to the button */
+  font-size: 16px; /* Set the font size of the button text */
+  position: fixed;
+  top: 55px;
+  left: 1180px;
+}
+
+
+.instagram button:hover{
+  /* Increase the box shadow on hover to make the shadow effect more pronounced */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.classroom {
+  padding: 10px 20px; /* Add padding to give the button some space */
+  background-color: #007bff00; /* Set the background color of the button */
+  color: #ffffff; /* Set the text color */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Add rounded corners to the button */
+  font-size: 16px; /* Set the font size of the button text */
+  position: fixed;
+  top: 52px;
+  left: 1105px;
+}
+
+
+.classroom button:hover{
+  /* Increase the box shadow on hover to make the shadow effect more pronounced */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

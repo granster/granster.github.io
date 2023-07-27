@@ -1,0 +1,262 @@
+body {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: rgb(17, 21, 100);
+}
+
+.slider-frame{
+    overflow: hidden;
+    height: 600px;
+    width: 1200px;
+    margin-left: 110px;
+    margin-top: -1500px;
+}
+
+/*---------- SLIDE ANIMATION --------------*/
+
+
+@keyframes slide_animation{
+    0% {left:0px;}
+    5% {left:0px;}
+    10% {left:1200px;}
+    15% {left:1200px;}
+    20% {left: 2400px;}
+    25% {left: 2400px;}
+    30% {left: 3600px;}
+    35% {left: 3600px;}
+    40% {left: 4800px;}
+    45% {left: 4800px;}
+    50% {left:6000px;}
+    55% {left:6000px;}
+    60% {left:4800px;}
+    65% {left:4800px;}
+    70% {left:3600px;}
+    75% {left: 3600px;}
+    80% {left: 2400px;}
+    85% {left: 2400px;}
+    90% {left: 1200px;}
+    95% {left: 1200px;}
+    100% {left: 0px;}
+}
+
+@-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    5% {left:0px;}
+    10% {left:1200px;}
+    15% {left:1200px;}
+    20% {left: 2400px;}
+    25% {left: 2400px;}
+    30% {left: 3600px;}
+    35% {left: 3600px;}
+    40% {left: 4800px;}
+    45% {left: 4800px;}
+    50% {left:6000px;}
+    55% {left:6000px;}
+    60% {left:4800px;}
+    65% {left:4800px;}
+    70% {left:3600px;}
+    75% {left: 3600px;}
+    80% {left: 2400px;}
+    85% {left: 2400px;}
+    90% {left: 1200px;}
+    95% {left: 1200px;}
+    100% {left: 0px;}
+}
+
+.slide-images{
+    width: 10800px;
+    height: 800px;
+    margin: 0 0 0 -6000px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+
+.img-container{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+
+/*##########################################################*/
+
+.slider-frame2{
+    overflow: hidden;
+    height: 600px;
+    width: 1200px;
+    margin-left: 110px;
+    margin-top: 1600px;
+}
+
+/*---------- SLIDE ANIMATION --------------*/
+
+
+@keyframes slide_animation{
+    0% {left:0px;}
+    5% {left:0px;}
+    10% {left:1200px;}
+    15% {left:1200px;}
+    20% {left: 2400px;}
+    25% {left: 2400px;}
+    30% {left: 3600px;}
+    35% {left: 3600px;}
+    40% {left: 4800px;}
+    45% {left: 4800px;}
+    50% {left:6000px;}
+    55% {left:6000px;}
+    60% {left:4800px;}
+    65% {left:4800px;}
+    70% {left:3600px;}
+    75% {left: 3600px;}
+    80% {left: 2400px;}
+    85% {left: 2400px;}
+    90% {left: 1200px;}
+    95% {left: 1200px;}
+    100% {left: 0px;}
+}
+
+@-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    5% {left:0px;}
+    10% {left:1200px;}
+    15% {left:1200px;}
+    20% {left: 2400px;}
+    25% {left: 2400px;}
+    30% {left: 3600px;}
+    35% {left: 3600px;}
+    40% {left: 4800px;}
+    45% {left: 4800px;}
+    50% {left:6000px;}
+    55% {left:6000px;}
+    60% {left:4800px;}
+    65% {left:4800px;}
+    70% {left:3600px;}
+    75% {left: 3600px;}
+    80% {left: 2400px;}
+    85% {left: 2400px;}
+    90% {left: 1200px;}
+    95% {left: 1200px;}
+    100% {left: 0px;}
+}
+
+.slide-images2{
+    width: 10800px;
+    height: 800px;
+    margin: 0 0 0 -6000px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+
+.img-container2{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+
+h1{
+    text-align:center;
+    line-height: 3; /* Set the line height to create spacing between lines */
+    position: relative;
+    top: -2200px;
+    font-family: "Arial Black", sans-serif; /* Change to your desired font family */
+    color: rgb(0, 0, 0); /* Set the text color */
+}
+
+.big {
+    font-size: 48px; /* Set the font size of the paragraph */
+    color: rgb(255, 212, 125); /* Set the text color */
+    text-align: center; /* Justify the text for even left and right margins */
+    position: relative;
+    text-indent: 80px; /* Adjust the indentation as needed */
+    font-family: "Arial Black", sans-serif; /* Change to your desired font family */
+
+}
+
+a {
+  color: #bdd8f6; /* Change the color to your desired value, here using a blue color as an example */
+}
+
+/* Apply different styles when hovering over the link */
+a:hover {
+  color: #004C99; /* Change the color on hover */
+  text-decoration: underline; /* Add an underline on hover, you can remove this line if you don't want the underline */
+}
+
+.hmmm {
+    color: #000000; /* Change the color to your desired value, here using a blue color as an example */
+}
+
+h2{
+    font-size: 48px;
+    text-align:center;
+    line-height: 3; /* Set the line height to create spacing between lines */
+    position: relative;
+    top: -3600px;
+    font-family: "Arial Black", sans-serif; /* Change to your desired font family */
+    color: rgb(0, 0, 0); /* Set the text color */
+}
+
+.container {
+  background-color: floralwhite; /* Set the background color you want */
+  color: black; /* Set the text color for better visibility on the colored background */
+  position: relative;
+  left: -100px;
+  top: -1350px;
+  height: 2200px;
+  width: 2050px;
+}
+
+.p1 {
+    font-size: 24px; /* Set the font size of the paragraph */
+    color: rgb(0, 0, 0); /* Set the text color */
+    text-align: center; /* Justify the text for even left and right margins */
+    position: relative;
+    text-indent: 40px; /* Adjust the indentation as needed */
+    font-family: "Arial", sans-serif; /* Change to your desired font family */
+    text-align: justify;
+    position:relative;
+    top:-3600px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+html { height: 100% }
+body { min-height: 100% }
+
+.container2 {
+    background-color: floralwhite; /* Set the background color you want */
+    color: black; /* Set the text color for better visibility on the colored background */
+    position: relative;
+    left: -100px;
+    top: 800px;
+    height: 1800px;
+    width: 2050px;
+}
+
+.i {
+    display: inline-block; /* Make the span behave as an inline block to contain the indented content */
+    text-indent: 40px; /* Set the indent to 30 pixels */
+}

@@ -1,0 +1,60 @@
+h1{
+    color : rgb(137, 159, 237);
+    position: relative; /* Set the position to relative or other values as needed */
+    top: 165px; /* Adjust the distance from the top */
+    left: 300px; /* Adjust the distance from the left */
+    font-size: 64px; /* Set the desired font size */
+    font-family: "Arial Black", sans-serif; /* Change to your desired font family */
+}
+h2{
+    color : rgb(255, 255, 255);
+    position: relative; /* Set the position to relative or other values as needed */
+    top: 280px; /* Adjust the distance from the top */
+    left: 100px; /* Adjust the distance from the left */
+    font-size: 48px; /* Set the desired font size */
+}
+.p1 {
+    font-size: 24px; /* Set the font size of the paragraph */
+    color: #ffffff; /* Set the text color */
+    line-height: 2; /* Set the line height to create spacing between lines */
+    text-align: justify; /* Justify the text for even left and right margins */
+    margin-left: 120px;
+    margin-bottom: 50px;
+    position: relative;
+    top: 300px; /* Optional: Add border-radius to create rounded corners */
+    font-weight: bold;
+}
+
+.highlight {
+    font-size: 36px; /* Set a larger font size for the highlighted text */
+}
+
+.indented-text {
+  display: inline-block; /* Make the span behave as an inline block to contain the indented content */
+  text-indent: 30px; /* Set the indent to 30 pixels */
+}
+
+.big-indented-text {
+    display: inline-block; /* Make the span behave as an inline block to contain the indented content */
+    text-indent: 60px; /* Set the indent to 30 pixels */
+}
+  
+  
+body {
+    overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Change the link text color */
+a {
+  color: #bdd8f6; /* Change the color to your desired value, here using a blue color as an example */
+}
+
+/* Apply different styles when hovering over the link */
+a:hover {
+  color: #004C99; /* Change the color on hover */
+  text-decoration: underline; /* Add an underline on hover, you can remove this line if you don't want the underline */
+}
